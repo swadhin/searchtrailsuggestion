@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Trail Suggestion</title>
+    <style>
+      body {
+        min-width: 330px;
+  font: 0.8em/21px arial,sans-serif;
+      }
+      
+     label{
+	min-width:180px;
+	width:auto;
+	}
+    img {
+	margin: 1px;
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+    
+    button{
+	height:30px; 
+	width:80px; 
+	margin: -20px -50px; 
+	position:relative;
+	top:50%; 
+	left:50%;
+    }
+    </style>
+    
+    <script src="popup.js"></script>
+    <script src="jquery-1.9.1.min.js"></script>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+
+	
+</head>
+  <body id="bdy">
+	<p id="demo"><em>Hey Folks.. Happy Trailing....</em></p>
+	
+	<form name="f1">
+	<b><i>Query:</i></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="tb" name="query" style="padding-top:8px; padding-bottom:8px; margin: 0; border: solid 1px #0f0f00; font-size:20px;"><br>
+	
+	<h3>Select Your Persona :: </h3>
+	<input type="radio" id="radio1" name="persona" value="indian_geek_poor" checked="checked" ><b><em>   Indian_Geek_Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r1.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio2" name="persona" value="indian_geek_rich"><b><em>  Indian_Geek_Rich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r2.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio3" name="persona" value="indian_aamadmi_poor"><b><em>  Indian_Aamadmi_Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r6.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio4" name="persona" value="indian_aamadmi_rich"><b><em>  Indian_Aamadmi_Rich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r12.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio5 "name="persona" value="us_geek_poor"><b><em>  US_Geek_Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r4.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio6" name="persona" value="us_geek_rich"><b><em>  US_Geek_Rich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r5.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio7" name="persona" value="us_people_poor"><b><em>  US_People_Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r3.jpg" ><br>
+	<hr>
+	<input type="radio" id="radio8" name="persona" value="us_people_rich"><b><em>  US_People_Rich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></b><img src="r8.jpg" >
+	<hr>
+	</form>
+	<div  >
+	<button type="button" id="button1" >Try it</button>
+	</div>
+  
+  </body>
+</html>
+
