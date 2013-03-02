@@ -1,0 +1,56 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Trail Suggestion",
+  "description": "This extension Suggests Personalized Search Trails.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "surfer.jpg",
+    "default_popup": "popup.html"
+  },
+  
+  "web_accessible_resources": [
+    "out/1galaxy note 2.txt",
+    "out/2galaxy note 2.txt",
+    "out/3galaxy note 2.txt",
+    "out/4galaxy note 2.txt",
+    "out/5galaxy note 2.txt",
+    "out/6galaxy note 2.txt",
+    "out/7galaxy note 2.txt",
+    "out/8galaxy note 2.txt",
+    "out/1android smartphone.txt",
+    "out/2android smartphone.txt",
+    "out/3android smartphone.txt",
+    "out/4android smartphone.txt",
+    "out/5android smartphone.txt",
+    "out/6android smartphone.txt",
+    "out/7android smartphone.txt",
+    "out/8android smartphone.txt",
+    "out/1television.txt",
+    "out/2television.txt",
+    "out/3television.txt",
+    "out/4television.txt",
+    "out/5television.txt",
+    "out/6television.txt",
+    "out/7television.txt",
+    "out/8television.txt",
+    "out/1best selling laptops.txt",
+    "out/2best selling laptops.txt",
+    "out/3best selling laptops.txt",
+    "out/4best selling laptops.txt",
+    "out/5best selling laptops.txt",
+    "out/6best selling laptops.txt",
+    "out/7best selling laptops.txt",
+    "out/8best selling laptops.txt",
+    "out/1sachin tendulkar.txt",
+    "out/2sachin tendulkar.txt",
+    "out/3sachin tendulkar.txt",
+    "out/4sachin tendulkar.txt",
+    "out/5sachin tendulkar.txt",
+    "out/6sachin tendulkar.txt",
+    "out/7sachin tendulkar.txt",
+    "out/8sachin tendulkar.txt"
+    ],
+   "permissions": ["tabs", "notifications"]
+}
